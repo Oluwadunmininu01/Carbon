@@ -150,3 +150,91 @@ aside h1 {
   top: 340px;
   z-index: 30;
 }
+.section3 .cont {
+  display: flex;
+  justify-content: space-around;
+  width: 854px;
+  height: 400px;
+  border-radius: 20px;
+}
+.section3 .cbn {
+  position: absolute;
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  right:400px;
+  top: 55px;
+  z-index: 30;
+
+}
+.image-wrapper{
+  width:427px;
+}
+.section3 .savings-plan {
+  position: absolute;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  right: 150px;
+  top: 220px;
+  z-index: 30;
+
+}
+.section3 .star {
+  position: absolute;
+  width: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  right: 480px;
+  top: 240px;
+  z-index: 30;
+
+}
+.section3 .lines {
+  position: absolute;
+  width: 80px;
+  padding: 20px;
+  border-radius: 10px;
+  right: 169px;
+  top: 99px;
+  z-index: 30;
+
+}
+.section4 .cont {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4ef1e12c;
+  width: 854px;
+  height: 555.89px;
+  border-radius: 20px;
+
+
+}
+.section4 .write-up {
+  width: 600px;
+  margin-top: 200px;
+}
+.article1 .cont {
+  background-color: #ff047510;
+  width: 854px;
+  height: 400px;
+  border-radius: 20px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 80px 0;
+}
+.article1 .plus-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  padding: 40px 20px 0 20px;
+
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+.article2 {
+  padding: 0 150px;
+  margin-top: 200px;
+  max-width: 1024px;
+}
