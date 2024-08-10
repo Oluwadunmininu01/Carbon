@@ -1,0 +1,25 @@
+ul.ullist, .navbar2{
+    display: hidden;
+    visibility: hidden;
+}
+.menu-icon{
+    position: relative;
+    right:600px;
+}
+nav{
+    width:35%;
+}
+.main-hero{
+    display: block;
+}
+.bank h1{
+    font-size: 3rem;
+    letter-spacing: 0rem;
+    text-align: center;
+    position: relative;
+    right:150px;
+}
+p.p1{
+    font-size: 1rem;
+}
+
