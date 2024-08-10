@@ -1,80 +1,152 @@
 /* Tablet CSS */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    background-color:#2c1762;
-    background-size:100%;
-    position: relative;
+header {
+  background-color: #2c1762;
+  background-size: 100%;
+  position: relative;
 }
-nav{
-    max-width:1024px;
+nav {
+  max-width: 1024px;
 }
-nav.navbar{
-    padding-right:50rem;
+nav.navbar {
+  padding-right: 50rem;
 }
 
 /* nav .navbar2{
     padding-right: 20rem;
 } */
 
-h1{
-    position: relative;
-    bottom:2rem;
+h1 {
+  position: relative;
+  bottom: 2rem;
 }
-main{
-    width:1300px;
-    
+main {
+  width: 1300px;
 }
-img.girls-img{
-    position: relative;
-    left:3rem;
+img.girls-img {
+  position: relative;
+  left: 3rem;
 }
-.main-hero{
-    position: relative;
-    right:2rem;
+.main-hero {
+  position: relative;
+  right: 2rem;
 }
-.bank{
-    font-size:18rem ;
+.bank {
+  font-size: 18rem;
 }
-main{
-    width:900px;
+main {
+  width: 900px;
 }
-.bigbox{
-    width:80%;
+.bigbox {
+  width: 80%;
 }
-.bigbox img{
-    width:65px;
-    height:50px;
+.bigbox img {
+  width: 65px;
+  height: 50px;
 }
-div.credit{
-    border-right: none;
-    position: relative;
-    left:0px;
+div.credit {
+  border-right: none;
+  position: relative;
+  left: 0px;
 }
-aside h1{
-    font-size: 1rem;
+aside h1 {
+  font-size: 1rem;
 }
-.cont{
-    max-width:1024px;
+.cont {
+  max-width: 1024px;
 }
-.article1 .plus-cont{
-    max-width: 1024px;
-    padding: 0%;
-    margin: 0%;
-   display: flex;
-   position: relative;
-   left:120px;
-   margin-top: 20px;
-   padding: 20px 20px;
+.article1 .plus-cont {
+  max-width: 1024px;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  position: relative;
+  left: 120px;
+  margin-top: 20px;
+  padding: 20px 20px;
 }
 .article1 .cont {
-    width: 1024px;
+  width: 1024px;
 }
 .article1 {
-    padding: 0%;
+  padding: 0%;
+}
+
+/*sections*/
+.section2 {
+  background-color: transparent;
+  border: 1px #000;
+  overflow: hidden;
+}
+
+.section2 .cont {
+  height: 557px;
+  max-width: 854px;
+  background-color: rgba(78, 241, 224, 0.1);
+  border-radius: 20px;
+  align-items: flex-start;
+  padding-top: 0;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2 .write-up {
+  margin: 0;
+}
+
+.section2 .write-up p {
+  color: gray;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.section2 .write-up button {
+  padding: 15px 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: #ff0475;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.section2 .man {
+  width: 300px;
+  height: 200px;
+  margin-right: 100px;
+  border-radius: 10px;
+  margin-top: 0px;
+  z-index: 20;
+}
+
+.section2 .div1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #ff0475;
+  padding: 20px;
+  border-radius: 50px;
+  left: 420px;
+  top: 330px;
+  z-index: 10;
+}
+
+.section2 .cart {
+  position: absolute;
+  width: 80px;
+  background-color: #2c1762;
+  padding: 20px;
+  border-radius: 10px;
+  left: 150px;
+  top: 340px;
+  z-index: 30;
 }
