@@ -150,56 +150,109 @@ aside h1 {
   top: 340px;
   z-index: 30;
 }
+.section3 {
+  margin-top: 0%;
+  border: 1px #000;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 80px 85px;
+  display: flex;
+}
 .section3 .cont {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 854px;
   height: 400px;
   border-radius: 20px;
+}
+
+.section3 .write-up {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  max-width: 50%;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  margin-top: 0;
 }
 .section3 .cbn {
   position: absolute;
   width: 220px;
   padding: 20px;
   border-radius: 10px;
-  right:400px;
-  top: 55px;
+  right: 230px;
+  top: 40px;
   z-index: 30;
+}
+.section3 .image-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  /* max-height: 57%; */
+  position: relative;
+}
 
+.section3 .savings {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  margin-top: 0;
+  margin-right: 0;
 }
-.image-wrapper{
-  width:427px;
-}
+
 .section3 .savings-plan {
   position: absolute;
   width: 200px;
   padding: 20px;
   border-radius: 10px;
-  right: 150px;
-  top: 220px;
+  right: 0px;
+  top: 200px;
   z-index: 30;
-
 }
+
 .section3 .star {
   position: absolute;
   width: 70px;
   padding: 20px;
   border-radius: 10px;
-  right: 480px;
-  top: 240px;
+  right: 350px;
+  top: 250px;
   z-index: 30;
-
 }
+
 .section3 .lines {
   position: absolute;
   width: 80px;
   padding: 20px;
   border-radius: 10px;
-  right: 169px;
-  top: 99px;
+  right: 10px;
+  top: 80px;
   z-index: 30;
-
 }
+
+/* section */
+.section4 {
+  background-color: transparent;
+  border-bottom-style: none;
+  background-color: transparent;
+  border: 1px #000;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 80px 85px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
 .section4 .cont {
   display: flex;
   justify-content: space-around;
@@ -207,34 +260,67 @@ aside h1 {
   width: 854px;
   height: 555.89px;
   border-radius: 20px;
-
-
 }
+
+.section4 .phone_div {
+  max-width: 50%;
+}
+
 .section4 .write-up {
-  width: 600px;
-  margin-top: 200px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  max-width: 50%;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 60px;
+  display: flex;
 }
+
+.article1 {
+  margin-top: 0%;
+  padding-top: 0;
+  background-color: transparent;
+  border: 1px #000;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 80px 85px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
 .article1 .cont {
-  background-color: #ff047510;
-  width: 854px;
-  height: 400px;
-  border-radius: 20px;
-  height: 400px;
-  border-radius: 20px;
-  padding: 80px 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
 }
 .article1 .plus-cont {
   display: flex;
   justify-content: space-between;
-  width: 800px;
   padding: 40px 20px 0 20px;
-
   height: 100px;
   background-color: white;
   border-radius: 10px;
+  left: 0px;
+}
+.article1 button {
+  margin-left: 0;
 }
 .article2 {
   padding: 0 150px;
   margin-top: 200px;
   max-width: 1024px;
+}
+
+.article2 .divs {
+  overflow-x: scroll;
 }
